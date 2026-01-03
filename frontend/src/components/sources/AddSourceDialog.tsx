@@ -302,7 +302,7 @@ export function AddSourceDialog({
       title: data.title,
       transformations: selectedTransformations,
       embed: data.embed,
-      delete_source: false,
+      delete_source: settings?.auto_delete_files === 'yes',
       async_processing: true,
     }
 
@@ -352,7 +352,7 @@ export function AddSourceDialog({
           url: item.type === 'url' ? item.value as string : undefined,
           transformations: selectedTransformations,
           embed: data.embed,
-          delete_source: false,
+          delete_source: settings?.auto_delete_files === 'yes',
           async_processing: true,
         }
 
