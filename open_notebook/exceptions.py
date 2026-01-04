@@ -1,70 +1,70 @@
-class OpenNotebookError(Exception):
-    """Base exception class for Open Notebook errors."""
+class OneticError(Exception):
+    """Base exception class for ONETIC errors."""
 
     pass
 
 
-class DatabaseOperationError(OpenNotebookError):
+class DatabaseOperationError(OneticError):
     """Raised when a database operation fails."""
 
     pass
 
 
-class UnsupportedTypeException(OpenNotebookError):
+class UnsupportedTypeException(OneticError):
     """Raised when an unsupported type is provided."""
 
     pass
 
 
-class InvalidInputError(OpenNotebookError):
+class InvalidInputError(OneticError):
     """Raised when invalid input is provided."""
 
     pass
 
 
-class NotFoundError(OpenNotebookError):
+class NotFoundError(OneticError):
     """Raised when a requested resource is not found."""
 
     pass
 
 
-class AuthenticationError(OpenNotebookError):
+class AuthenticationError(OneticError):
     """Raised when there's an authentication problem."""
 
     pass
 
 
-class ConfigurationError(OpenNotebookError):
+class ConfigurationError(OneticError):
     """Raised when there's a configuration problem."""
 
     pass
 
 
-class ExternalServiceError(OpenNotebookError):
+class ExternalServiceError(OneticError):
     """Raised when an external service (e.g., AI model) fails."""
 
     pass
 
 
-class RateLimitError(OpenNotebookError):
+class RateLimitError(OneticError):
     """Raised when a rate limit is exceeded."""
 
     pass
 
 
-class FileOperationError(OpenNotebookError):
+class FileOperationError(OneticError):
     """Raised when a file operation fails."""
 
     pass
 
 
-class NetworkError(OpenNotebookError):
+class NetworkError(OneticError):
     """Raised when a network operation fails."""
 
     pass
 
 
-class NoTranscriptFound(OpenNotebookError):
+class NoTranscriptFound(OneticError):
     """Raised when no transcript is found for a video."""
 
     pass

@@ -3,13 +3,13 @@
 **Version**: 1.0.0
 **Last Updated**: October 2025
 
-This guide helps existing Open Notebook users migrate from the legacy Streamlit frontend to the new React/Next.js frontend.
+This guide helps existing ONETIC users migrate from the legacy Streamlit frontend to the new React/Next.js frontend.
 
 ---
 
 ## ⚠️ Breaking Changes in v1.0
 
-Open Notebook v1.0 introduces breaking changes that require manual migration. Please read this section carefully before upgrading.
+ONETIC v1.0 introduces breaking changes that require manual migration. Please read this section carefully before upgrading.
 
 ### Docker Tag Changes
 
@@ -127,7 +127,7 @@ Note: The API URL is now auto-detected by the frontend from the hostname you're 
 
 ## What Changed
 
-Open Notebook has migrated from a Streamlit-based frontend to a modern React/Next.js application. This brings significant improvements in performance, user experience, and maintainability.
+ONETIC has migrated from a Streamlit-based frontend to a modern React/Next.js application. This brings significant improvements in performance, user experience, and maintainability.
 
 ### Key Changes
 
@@ -154,7 +154,7 @@ Open Notebook has migrated from a Streamlit-based frontend to a modern React/Nex
 
 ### Path 1: Docker Users (Recommended)
 
-If you're running Open Notebook via Docker, migration is automatic:
+If you're running ONETIC via Docker, migration is automatic:
 
 1. **Stop the current version**:
    ```bash
@@ -321,7 +321,7 @@ If ports 8502 or 5055 are already in use:
 lsof -i :8502
 lsof -i :5055
 
-# Stop conflicting service or change Open Notebook ports
+# Stop conflicting service or change ONETIC ports
 # Edit docker-compose.yml:
 ports:
   - "8503:8502"  # Change external port

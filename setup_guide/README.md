@@ -1,4 +1,4 @@
-# Open Notebook - Docker Setup Guide for Beginners
+# ONETIC - Docker Setup Guide for Beginners
 
 > **This documentation has moved!**
 > 

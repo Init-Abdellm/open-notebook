@@ -320,7 +320,7 @@ We'd love to have you contribute in other ways! Check out:
 - [Help wanted issues](link)
 - Our [roadmap](link)
 
-Thanks again for your interest in Open Notebook!
+Thanks again for your interest in ONETIC!
 ```
 
 ### Closing a Stale Issue

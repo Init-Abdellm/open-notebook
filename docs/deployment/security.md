@@ -319,7 +319,7 @@ curl -X POST \
 ```python
 import requests
 
-class OpenNotebookClient:
+class OneticClient:
     def __init__(self, base_url: str, password: str):
         self.base_url = base_url
         self.headers = {"Authorization": f"Bearer {password}"}
@@ -341,7 +341,7 @@ class OpenNotebookClient:
         return response.json()
 
 # Usage
-client = OpenNotebookClient("http://localhost:5055", "your_password")
+client = OneticClient("http://localhost:5055", "your_password")
 notebooks = client.get_notebooks()
 ```
 
